@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const createError = require('http-errors');
 
 //conexion con la BD
-mongoose.connect('mongodb+srv://pabor:objp0174@cluster0.u65t8p4.mongodb.net/')   //mongodb://username:password@host:port/database?options...'
+mongoose.connect('<tu ruta>')
     .then((x) => {
         // console.log(`${x.connections[0]}`)
         console.log(x.connections[0].name);
